@@ -1,11 +1,10 @@
-import { BsFillCalendarFill } from 'react-icons/bs';
+import Button from "./components/Button/Button";
 
 function App() {
-  
 
   return (
     <div>
-      <BsFillCalendarFill color="maroon" size={50} />
+      <Button onClick={() => {}}>My Button</Button>
     </div>
   );
 }
