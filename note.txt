@@ -1,0 +1,11 @@
+     Difference between PROPS and STATE
+|       PROPS            |         STATE          |
+|------------------------|------------------------|
+|(i.) Input passed to    | (i.) Data managed by a |
+| a component.           | component.             |
+|(ii.)Similar to function| (ii.) Similar to local |
+| args.                  | variables.             |
+|(iii.) They should be   | (iii.) They should be  |
+| treated as immutable   | treated as mutable.    |
+|(iv.) They cause a      |(iv.) They cause a      |
+| re-render.             | re-render.             |
