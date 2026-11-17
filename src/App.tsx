@@ -1,10 +1,10 @@
-import Like from "./components/Like";
+import Message from "./Message";
 
 function App() {
 
   return (
     <div>
-      <Like onClick={() => console.log("Like clicked!")} />
+      <Message />
     </div>
   );
 }
